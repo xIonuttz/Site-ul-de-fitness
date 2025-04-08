@@ -1,0 +1,33 @@
+﻿
+body {
+    padding-top: 70px;
+}
+
+
+.section-fitness {
+    padding: 60px 0;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f8f9fa;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700; 
+}
+
+
+.img-fluid {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.section-fitness:nth-child(odd) {
+    background-color: #e9ecef;
+}

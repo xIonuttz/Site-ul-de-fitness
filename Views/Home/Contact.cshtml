@@ -1,0 +1,62 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+@{
+    ViewData["Title"] = "Contact";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1 class="mb-4">Contact</h1>
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Informații de contact</h3>
+                    <p><strong>Adresă:</strong> Strada Mesteacanului, Nr. 123,Craiova</p>
+                    <p><strong>Telefon:</strong> 0722 123 456</p>
+                    <p><strong>Email:</strong> contact@fitnesssite.ro</p>
+                    <p><strong>Program:</strong> Luni - Vineri: 8:00 - 20:00, Sâmbătă: 9:00 - 16:00</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <h2 class="mb-4">Trimite un mesaj</h2>
+            <div class="card">
+                <div class="card-body">
+                    <form method="post">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nume</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Telefon</label>
+                            <input type="tel" class="form-control" id="phone" name="phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subiect</label>
+                            <select class="form-select" id="subject" name="subject">
+                                <option value="general">Informații generale</option>
+                                <option value="slabire">Program de slăbire</option>
+                                <option value="musculatura">Dezvoltare musculară</option>
+                                <option value="nutritie">Plan alimentar</option>
+                            
+                                <option value="altele">Altele</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mesaj</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Trimite mesajul</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

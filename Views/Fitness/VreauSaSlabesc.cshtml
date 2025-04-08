@@ -1,0 +1,68 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+@{
+    ViewData["Title"] = "Vreau Să Slăbesc";
+}
+
+<div class="container">
+    <h1 class="mb-4">Program de slăbire</h1>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Antrenament pentru slăbire</h3>
+                    <p>Pentru a slăbi eficient, este recomandat să combini antrenamentele cardio cu cele de forță.</p>
+
+                    <h4 class="mt-4">Program săptămânal recomandat:</h4>
+                    <ul>
+                        <li><strong>Luni:</strong> Cardio 30 min (alergare, bicicletă sau înot) + exerciții pentru abdomen</li>
+                        <li><strong>Marți:</strong> Antrenament pentru partea superioară a corpului</li>
+                        <li><strong>Miercuri:</strong> HIIT (High Intensity Interval Training) 20 min</li>
+                        <li><strong>Joi:</strong> Antrenament pentru partea inferioară a corpului</li>
+                        <li><strong>Vineri:</strong> Cardio 30 min + exerciții pentru abdomen</li>
+                        <li><strong>Sâmbătă:</strong> Antrenament complet pentru corp sau sport recreativ</li>
+                        <li><strong>Duminică:</strong> Odihnă activă (plimbare, stretching)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Nutriție pentru slăbire</h3>
+                    <p>Nutriția reprezintă 70% din succesul tău în programul de slăbire. Iată câteva principii de bază:</p>
+
+                    <h4 class="mt-4">Principii nutritive:</h4>
+                    <ul>
+                        <li>Creează un deficit caloric moderat (300-500 calorii sub necesarul zilnic)</li>
+                        <li>Consumă suficiente proteine (1.6-2g / kg greutate corporală)</li>
+                        <li>Limitează carbohidrații rafinați și zahărul</li>
+                        <li>Consumă multe legume și fructe</li>
+                        <li>Hidratează-te corespunzător (minim 2.5-3 litri de apă pe zi)</li>
+                        <li>Limitează alcoolul</li>
+                        <li>Mănâncă la ore regulate</li>
+                    </ul>
+
+                    <p class="mt-3">Pentru un plan personalizat, te rugăm să consulți pagina <a asp-controller="Fitness" asp-action="VreauPlanAlimentar">Plan Alimentar</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">De ce să alegi programul nostru?</h3>
+                    <p class="card-text">Programul nostru de slăbire este conceput științific pentru a asigura rezultate pe termen lung, nu doar pierdere temporară în greutate. Ne concentrăm pe schimbarea stilului de viață, nu doar pe diete restrictive.</p>
+                    <p class="card-text">Contactează-ne pentru o evaluare gratuită și un plan personalizat!</p>
+                    <a asp-controller="Home" asp-action="Contact" class="btn btn-primary">Contactează-ne</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
